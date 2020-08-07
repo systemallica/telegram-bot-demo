@@ -21,7 +21,7 @@ OK_RESPONSE = {
 ERROR_RESPONSE = {
     'statusCode': 400,
     'body': json.dumps('Oops, something went wrong!')
-
+}
     
 def configure_telegram():
     """
